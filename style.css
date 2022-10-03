@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     background-color: #a40505;
     margin: 0;
@@ -55,7 +61,7 @@ h1 {
     display: block;
 }
 
-.paragrafo {
+p {
     font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
     color:#fff;
@@ -64,12 +70,12 @@ h1 {
     margin-right: 200px;
 }
 
-.h2 {
+h2 {
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
 }
 
-#obras {
+h3 {
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
 }
@@ -91,6 +97,59 @@ h1 {
     color: white;
 }
 
+#h2-resposta {
+    font-family: 'Courier New', Courier, monospace;
+    color: #fff;
+}
+
+#resposta-container {
+    background-color: #000;
+    opacity: 0.9;
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 30px;
+    margin-top: 10vh;
+    border-radius: 10px;
+    text-align: center;
+}
+
+form {
+    color:#fff;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+input, label {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    padding: 35px;
+    width: 500px;
+    text-align: left;
+    color:#fff;
+}
+
+#botao-resposta {
+    background-color: #a40505;
+    opacity: 0.9;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    width: 200px;
+    height: 60px;
+    border-left: 5px;
+    border-radius: 10px;
+}
+
+#botao-resposta:hover {
+    background-color: #fff;
+    color: #000;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
 footer {
     background-color: #000;
 }
@@ -104,24 +163,24 @@ html {
     justify-content: center;
 }
 
-#p-footer {
-    display: flex;
+#footer {
+    display: inline-block;
     justify-content: center;
 }
 
-#p-footer {
+#footer {
     font-family: 'Courier New', Courier, monospace;
-    font-size: 25px;
+    font-size: 20px;
     color: #fff;
 }
 
-#p-footer a {
+#footer a {
     font-weight: bold;
     color: #fff;
     text-decoration: none;
 }
 
-#p-footer a:hover {
+#footer a:hover {
     font-weight: bold;
     color: #a40505;
     text-decoration: none;
