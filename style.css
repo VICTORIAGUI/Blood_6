@@ -61,6 +61,11 @@ h1 {
     display: block;
 }
 
+#img-boi {
+    margin: auto;
+    display: block;
+}
+
 p {
     font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
@@ -73,6 +78,7 @@ p {
 h2 {
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
+    font-size: 30px;
 }
 
 h3 {
